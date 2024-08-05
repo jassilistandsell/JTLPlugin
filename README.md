@@ -54,7 +54,7 @@
 #for admin and frontend we use same request HOOK_IO_HANDLE_REQUEST
 
 // Updated function to use the `update` method
-```php
+
 public function LSRemove($params): array {
    
 
