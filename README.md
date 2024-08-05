@@ -44,7 +44,7 @@
 #then we are going to define this function LSRemove into Bootstrap.php file
 
 /*--------------------------- AJAX IO REQUESTS --------------------------------------------*/
-
+```php
     $dispatcher->listen(
 
    'shop.hook.' . \HOOK_IO_HANDLE_REQUEST , function (array &$args){
@@ -54,7 +54,7 @@
 #for admin and frontend we use same request HOOK_IO_HANDLE_REQUEST
 
 // Updated function to use the `update` method
-
+```php
 public function LSRemove($params): array {
    
 
