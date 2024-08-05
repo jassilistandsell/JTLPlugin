@@ -44,20 +44,22 @@
 #then we are going to define this function LSRemove into Bootstrap.php file
 
 /*--------------------------- AJAX IO REQUESTS --------------------------------------------*/
-//    $dispatcher->listen(
+<?php 
+    $dispatcher->listen(
 
-  //  'shop.hook.' . \HOOK_IO_HANDLE_REQUEST , function (array &$args){
-    // $args['io']->register('LSRemove', [$this, 'LSRemove']);
-//});
+   'shop.hook.' . \HOOK_IO_HANDLE_REQUEST , function (array &$args){
+     $args['io']->register('LSRemove', [$this, 'LSRemove']);
+});
+?>
 #for admin and frontend we use same request HOOK_IO_HANDLE_REQUEST
 
 // Updated function to use the `update` method
-
+<?php
 public function LSRemove($params): array {
    
 
     return $params;
  }
 
-
+?>
 #This is how ajax call will work you can find sample plugin code in files
