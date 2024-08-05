@@ -9,7 +9,7 @@
     //var shopIoUrl = window.location.origin+'/io.php';
 
 //});
-
+```javascript
  document.getElementById('frequency-container').addEventListener('click', function(event) {
             event.preventDefault();
             if (event.target.classList.contains('remove-row')) {
@@ -39,7 +39,7 @@
                 });
             }
         }); 
-
+```
 #here is the example function i have define for LSRemove which i am sending using ajax to php function 
 #then we are going to define this function LSRemove into Bootstrap.php file
 
