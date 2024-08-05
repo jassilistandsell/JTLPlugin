@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jtlshopplugin>
+	<Name>Testing plugin</Name>
+	<Description>The is the dummy functions plugin, it will be used only to show file structure.</Description>
+	<Author>Jaswinder Kaur</Author>
+	<URL></URL>
+	<XMLVersion>100</XMLVersion>
+	<ShopVersion>5.0.0-beta.3</ShopVersion>
+	<PluginID>JTLPlugin</PluginID>
+    <CreateDate>2024-07-31</CreateDate>
+    <Version>1.0.0</Version>
+	<Install>
+		
+		<Adminmenu>
+		<!-- you can add admin page link -->
+		</Adminmenu>
+		 <JS>
+            <file>
+                <name>main.js</name> 
+                <priority>1</priority>
+                <position>body</position> 
+            </file>
+           
+        </JS>
+	</Install>
+</jtlshopplugin>
+
