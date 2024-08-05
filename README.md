@@ -5,10 +5,10 @@
 #2.  Need to define ajax call using io.php in js file for example
 
 #Code 
-<!-- $(document).ready(function(){
-    var shopIoUrl = window.location.origin+'/io.php';
+// $(document).ready(function(){
+    //var shopIoUrl = window.location.origin+'/io.php';
 
-});
+//});
 
  document.getElementById('frequency-container').addEventListener('click', function(event) {
             event.preventDefault();
@@ -38,7 +38,7 @@
                     }
                 });
             }
-        }); -->
+        }); 
 
 #here is the example function i have define for LSRemove which i am sending using ajax to php function 
 #then we are going to define this function LSRemove into Bootstrap.php file
